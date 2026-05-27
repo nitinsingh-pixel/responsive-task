@@ -9,6 +9,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+     overflow-x: hidden;
 }
 
 @font-face {
@@ -26,10 +27,15 @@ body {
     src: url(./fonts/figtree_n4.3c0838aba1701047e60be6a99a1b0a40ce9b8419.woff2);
 }
 
+@font-face {
+    font-family: midnight;
+    src: url(./fonts/midnight-sans-rd-12-medium-trial.otf);
+}
+
 main {
     width: 100%;
     height: 100%;
-   
+
 
 
 }
@@ -42,11 +48,11 @@ main {
     background-position: center;
     position: relative;
     background-size: cover;
-    
+
     align-content: flex-start;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+
 
     border-bottom: 1px solid #000;
 
@@ -57,9 +63,9 @@ main {
 
 .first .content {
     max-width: 44%;
-   min-height: 90%;
+    min-height: 90%;
     display: flex;
-  
+
     flex-direction: column;
     align-items: self-start;
     justify-content: flex-end;
@@ -84,8 +90,8 @@ header {
     border-radius: 1rem;
     border: 1px solid black;
     flex-wrap: wrap;
-  z-index: 2;
-  
+    z-index: 2;
+
 }
 
 .left {
@@ -102,7 +108,7 @@ header {
 
 .left a {
 
-    font-size: clamp(1.2rem ,4vw ,2rem );
+    font-size: clamp(1.2rem, 4vw, 2rem);
     text-decoration: none;
     color: black;
     font-family: reckless;
@@ -111,7 +117,7 @@ header {
 
 header img {
     max-width: 30vw;
-    
+
     height: auto;
     object-fit: cover;
     margin-left: 12rem;
@@ -343,6 +349,239 @@ header img {
 
 }
 
+.section-3 .line {
+    display: block;
+    max-width: 100%;
+    margin-top: 8rem;
+    border: 0.1rem solid black;
+}
+
+.section-4 .btn-2 {
+    transform: scaleY(1.3);
+    font-size: 3rem;
+    font-family: robot;
+    font-weight: 800;
+    background-color: #FF7F31;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+
+    rotate: -2deg;
+
+    align-self: center;
+    display: block;
+
+    margin-right: auto;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+
+.section-4 {
+    margin-left: 10rem;
+}
+
+.section-4 h1 {
+    font-size: clamp(2.2rem, 5vw, 5.1rem);
+    font-weight: 200;
+    line-height: 1.2;
+    width: 80%;
+    font-family: reckless;
+
+}
+
+.section4-text .input {
+    margin-top: 8vh;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    background-color: rgb(251, 249, 235);
+}
+
+.section4-text p {
+    color: grey;
+    margin-top: 8vh;
+    font-family: robot;
+    font-size: clamp(0.8rem, 3vh, 1.8rem);
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 24px;
+
+
+}
+
+.chips a {
+    padding: 1rem 1.8rem;
+    background: white;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    color: black;
+    background-color: #DAEAFF;
+    font-size: clamp(1.2rem, 3vw, 2rem);
+}
+
+.section-5 {
+    background-image: url(./imgs/background2.webp);
+    background-size: cover;
+    width: 100%;
+    height: 300%;
+    background-size: fill;
+    background-position: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+
+
+}
+
+.section-5 .btn-3 {
+    transform: scaleY(1.5);
+    font-size: clamp(3rem, 5vh, 3rem);
+    height: auto;
+    font-family: midnight;
+    font-weight: 900;
+    background-color: rgb(162, 201, 252);
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    rotate: -2deg;
+    padding: 0.3rem 0.5rem;
+    align-self: center;
+    display: block;
+
+
+    margin-top: 17rem;
+    margin-bottom: 5rem;
+}
+
+.section-5 h1 {
+    color: white;
+    font-size: clamp(7rem, 15vw, 10rem);
+    text-transform: uppercase;
+    font-family: midnight;
+    /* width: 100%; */
+    font-weight: 800;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+
+
+
+
+
+}
+
+.section-5 p {
+    color: white;
+    font-size: clamp(2.5rem, 5vw, 5rem);
+    margin: auto;
+    text-align: center;
+}
+
+.section-5 .btm-btn {
+
+    padding: 1.2rem 4.5rem;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: Figtree;
+    border-radius: 2rem;
+    font-size: 1.8rem;
+    margin: auto;
+
+
+}
+
+.section-5 .three-img {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 7vw;
+    align-content: center;
+}
+
+.logo p {
+    font-size: clamp(0.9rem, 2vw, 1.5rem);
+    text-align: center;
+    width: 80%;
+    font-family: robot;
+}
+
+.section-6 {
+    display: flex;
+    width: 100%;
+    height: 85vh;
+    /* flex-wrap: wrap; */
+}
+
+.section-6 .left2 {
+    width: 50%;
+    overflow: hidden;
+}
+
+.section-6 .left2  img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.section-6 .right2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    padding: 4rem;
+    background-color: #2A2857;
+    justify-content: space-between;
+}
+
+.section-6 .right2 h1 {
+    font-size: clamp(3rem, 6vw, 6rem);
+    color: white;
+    font-weight: 200;
+    font-family: reckless;
+    width: 70%;
+}
+
+.section-6 .right2 p {
+    font-size: clamp(0.9rem, 2vw, 1.5rem);
+    color: white;
+
+}
+.btn-btn {
+
+    
+    border: none;
+    background-color: #2A2857;
+    color: white;
+    font-family: Figtree;
+    border-radius: 1.2rem;
+    
+    background-color: white;
+     color: black;
+      padding: 1rem 3rem ;
+      font-size: 2rem;
+
+}
+
 @media (max-width:1000px) {
     .first {
         background-position: center;
@@ -372,8 +611,8 @@ header img {
         padding: 0.5rem 0.2rem;
         width: 95%;
         margin-top: 0;
-        
-        
+
+
 
 
     }
@@ -383,7 +622,7 @@ header img {
     }
 
     .first .content {
-        
+
         max-width: 100%;
         display: flex;
         flex-direction: column;
@@ -391,7 +630,7 @@ header img {
         flex-wrap: wrap;
         flex-shrink: 0;
         align-items: center;
-        
+
         height: 100%;
         margin-top: -5rem;
 
@@ -441,7 +680,70 @@ header img {
         border-radius: 2rem;
         font-size: 1rem;
     }
+
+    .section-4 {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3rem;
+    }
+
+    .section-5 .three-img {
+        width: 100%;
+
+    }
+
+    .logo p {
+        font-size: clamp(1rem, 3vw, 1.8rem);
+    }
+
+    .logo img {
+        max-width: 7vh;
+    }
+    .section-6{
+    display: flex;
+    flex-direction: column;
+    
+  
+   
+    
+
 }
+.section-6 > div {
+    width: 100% !important;
+}
+.right2{
+    width: 100%;
+    height: auto;
+    gap: 1.5rem;
+    padding: 1rem;
+    
+
+}
+
+ .left2  img{
+    width: 100%;
+    height: auto;
+    
+    /* object-fit: cover; */
+    
+    
+    
+}
+
+
+.btn-btn{
+    font-size: 1rem;
+    padding: 1rem 2rem;
+}
+
+
+
+
+}
+
+
 
 @media (max-width: 1400px) {
     header {
@@ -451,28 +753,32 @@ header img {
         padding: 1rem;
         justify-content: space-between;
     }
-    .left a{
-        font-size: clamp(1.2rem ,4vw ,2rem );
+
+    .left a {
+        font-size: clamp(1.2rem, 4vw, 2rem);
     }
 
-    
 
-    
+
+
     header img {
-        margin-left:-3rem;
+        margin-left: -3rem;
     }
+
     .right {
         gap: 1rem;
     }
-    .left{
+
+    .left {
         gap: 1rem;
 
     }
-    .content{
+
+    .content {
         /* min-height: 80vh; */
         margin-top: 5rem;
         justify-content: flex-end;
-        
+
     }
-    
+
 }
