@@ -139,7 +139,7 @@ header img {
 }
 
 .content h1 {
-    font-size: clamp(3.2rem, 5vw, 4.5rem);
+    font-size: clamp(1.2rem, 4vw, 4.5rem);
     font-family: Reckless;
     color: black;
     font-weight: 400;
@@ -147,7 +147,7 @@ header img {
 }
 
 .content p {
-    font-size: clamp(1.4rem, 1vw, 1rem);
+    font-size: clamp(1rem, 2vw, 1.2rem);
     font-family: Figtree;
     font-weight: 300;
     color: black;
@@ -379,7 +379,7 @@ header img {
 
     .first .content {
         width: 100%;
-        /* height: auto; */
+        height: auto;
         display: flex;
         flex-direction: column;
         padding: 2rem 1rem;
