@@ -69,7 +69,7 @@ main {
 }
 
 header {
-    top: 1.5rem;
+    
     position: sticky;
     max-width: 98%;
     max-height: 10.2vh;
