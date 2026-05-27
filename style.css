@@ -161,7 +161,7 @@ header img {
     color: white;
     font-family: Figtree;
     border-radius: 2.5rem;
-    font-size: clamp(1rem, 4vw, 3rem);
+    font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
 #section-2 {
