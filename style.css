@@ -44,7 +44,7 @@ main {
     
     align-content: flex-start;
     justify-content: space-between;
-    padding: 3rem 0.5rem;
+    
     
 
     border-bottom: 1px solid #000;
@@ -69,7 +69,7 @@ main {
 }
 
 header {
-    
+    top: 2rem;
     position: sticky;
     max-width: 98%;
     max-height: 10.2vh;
@@ -99,7 +99,7 @@ header {
 
 .left a {
 
-    font-size: clamp(1.2rem ,4vw ,2.2rem );
+    font-size: clamp(1.2rem ,4vw ,2rem );
     text-decoration: none;
     color: black;
     font-family: reckless;
@@ -121,7 +121,7 @@ header img {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
-    flex-wrap: wrap;
+    
 
 }
 
@@ -155,7 +155,7 @@ header img {
 
 .content button {
 
-    padding: 1.2rem 5.2rem;
+    padding: 1rem 4.5rem;
     border: none;
     background-color: #2A2857;
     color: white;
