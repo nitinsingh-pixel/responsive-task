@@ -56,7 +56,7 @@ main {
 
 .first .content {
     width: 44%;
-    height: 40rem;
+    height: 40%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
