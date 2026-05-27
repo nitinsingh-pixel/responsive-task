@@ -91,6 +91,7 @@ header {
     align-items: center;
     justify-content: space-between;
     gap: 2.4rem;
+    align-self: center;
 }
 
 .left i {
@@ -108,7 +109,7 @@ header {
 
 header img {
     max-width: 30vw;
-    
+    align-self: center;
     height: auto;
     object-fit: cover;
     margin-left: 12rem;
@@ -121,6 +122,7 @@ header img {
     align-items: center;
     justify-content: space-between;
     gap: 2rem;
+    align-self: center;
     
 
 }
