@@ -62,7 +62,7 @@ main {
     flex-direction: column;
     align-items: self-start;
     justify-content: flex-end;
-    align-self: self-end;
+    
     gap: 1rem;
     padding: 3rem 2.5rem;
 
@@ -381,14 +381,17 @@ header img {
     }
 
     .first .content {
-        width: 100%;
-        height: auto;
+        
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         padding: 2rem 1rem;
         flex-wrap: wrap;
+        flex-shrink: 0;
         align-items: center;
-        /* margin-top: -5rem; */
+        
+        
+        margin-top: -5rem;
 
 
     }
@@ -420,7 +423,7 @@ header img {
     }
 
     .content p {
-        font-size: clamp(1rem, 3vw, 4rem);
+        font-size: clamp(1rem, 1vh, 4rem);
         font-family: Figtree;
         font-weight: 300;
         color: black;
