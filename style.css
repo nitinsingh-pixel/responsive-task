@@ -111,7 +111,7 @@ header img {
     max-width: 30vw;
     
     height: auto;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin-left: 12rem;
 
 
