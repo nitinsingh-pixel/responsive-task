@@ -107,7 +107,7 @@ header {
 }
 
 header img {
-    max-width: 15rem;
+    max-width: 30vw;
     
     height: auto;
     object-fit: cover;
@@ -127,7 +127,7 @@ header img {
 
 .right a {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 1vw;
     text-decoration: none;
     color: black;
     font-family: robot;
@@ -135,7 +135,7 @@ header img {
 }
 
 .right i {
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .content h1 {
