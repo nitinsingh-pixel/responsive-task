@@ -123,6 +123,7 @@ header img {
     justify-content: space-between;
     gap: 2rem;
     height: auto;
+    top: 0;
 
 }
 
@@ -132,6 +133,7 @@ header img {
     text-decoration: none;
     color: black;
     font-family: robot;
+    align-self: center;
 
 }
 
