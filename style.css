@@ -120,7 +120,7 @@ header img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2.5rem;
+    gap: 2rem;
     flex-wrap: wrap;
 
 }
@@ -155,13 +155,13 @@ header img {
 
 .content button {
 
-    padding: 1.4rem 5.4rem;
+    padding: 1.2rem 5.2rem;
     border: none;
     background-color: #2A2857;
     color: white;
     font-family: Figtree;
     border-radius: 2.5rem;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 3rem);
 }
 
 #section-2 {
