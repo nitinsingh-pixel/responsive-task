@@ -147,7 +147,7 @@ header img {
 }
 
 .content p {
-    font-size: clamp(0.8rem, 2vw, 1.2rem);
+    font-size: clamp(0.6rem, 2vw, 1rem);
     font-family: Figtree;
     font-weight: 300;
     color: black;
